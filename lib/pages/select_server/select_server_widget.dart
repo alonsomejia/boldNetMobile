@@ -57,7 +57,7 @@ class _SelectServerWidgetState extends State<SelectServerWidget> {
               Padding(
                 padding: EdgeInsetsDirectional.fromSTEB(0.0, 100.0, 0.0, 0.0),
                 child: Text(
-                  'Please select or add a server 1',
+                  'Please select or add a server',
                   textAlign: TextAlign.center,
                   style: FlutterFlowTheme.of(context).headlineLarge.override(
                         fontFamily:
