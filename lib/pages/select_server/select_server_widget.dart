@@ -75,7 +75,9 @@ class _SelectServerWidgetState extends State<SelectServerWidget> {
                   children: [
                     FlutterFlowDropDown<String>(
                       controller: _model.dropDownValueController ??=
-                          FormFieldController<String>(null),
+                          FormFieldController<String>(
+                        _model.dropDownValue ??= 'fafadsfas',
+                      ),
                       options:
                           FFAppState().localServers.map((e) => e.url).toList(),
                       onChanged: (val) async {
